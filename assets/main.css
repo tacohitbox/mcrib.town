@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Hack";
+  src: url("/assets/Hack.ttf");
+}
+
+html, body:not(.smaller) {
+  margin:0;
+  padding:0;
+}
+
+body {
+  color:#ad37a1;
+  background:black;
+  font-family: "Hack";
+}
+
+body.smaller {
+  padding:5px;
+}
+
+code {
+  background:#282828;
+  padding:4px;
+  border-radius:4px;
+  margin:0;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  margin-top:5px;
+  margin-bottom:10px;
+}
+
+body.smaller h1 {
+  margin:0;
+}
+
+body.smaller p {
+  margin:5px 0;
+}
+
+.mcrib {
+  margin-top:10px;
+  image-rendering:pixelated;
+  width:250px;
+}
